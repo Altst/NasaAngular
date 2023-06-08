@@ -10,6 +10,7 @@ import { EarthComponent } from './earth/earth.component';
 import { MarsComponent } from './mars/mars.component';
 import { EpicComponent } from './epic/epic.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     AsteroidsComponent,
     EarthComponent,
     MarsComponent,
-    EpicComponent
+    EpicComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

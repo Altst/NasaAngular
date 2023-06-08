@@ -1,0 +1,10 @@
+<div class="wrapper" [style.display]="display">
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">API key</label>
+            <input type="email" class="form-control" [(ngModel)]="apiKey" name="apiKey">
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="logIn()">Log in</button><br>
+        <a class="signUp" href="https://api.nasa.gov">Sign Up</a>
+    </form>
+</div>

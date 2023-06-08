@@ -1,16 +1,13 @@
 .wrapper {
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-h1 {
-    margin-bottom: 3rem;
-}
-
 a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -18,14 +15,15 @@ a:hover {
     color: black;
 }
 
-.nav{
-    margin-bottom: 2rem;
-}
-
 .nav-link {
     padding: 1rem 5rem;
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .nav-link:visited {
-    background-color: chocolate;
+    background-color:rgb(67, 67, 67);
+    color: rgb(255, 255, 255);
 }

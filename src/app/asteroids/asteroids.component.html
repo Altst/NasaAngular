@@ -1,3 +1,11 @@
 <div class="wrapper">
-    <img src="{{url}}" class="img" />
-</div>
+    <div class="card" *ngFor="let id of ids; let i = index;">
+      <div class="card-body">
+        <h5 class="card-title">{{ ids[i] }}</h5>
+        <p class="card-text">Name: {{ names[i] }}</p>
+        <p class="card-text">Date: {{ dates[i] }}</p>
+        <p class="card-text">Magnitude: {{ magnitudes[i] }}</p>
+      </div>
+    </div>
+  </div>
+  

@@ -1,6 +1,12 @@
 .wrapper{
+    width: 100%;
+    height: 60vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.img{
-    height: 65vh;
+.card{
+    width: 70%;
+    color: black;
+    background-color: #f6edfc;
 }

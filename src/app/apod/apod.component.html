@@ -1,3 +1,9 @@
 <div class="wrapper">
-    <img src="{{url}}" class="img" />
+    <div class="card">
+        <img [src]="photo" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">{{title}}</h5>
+          <p class="card-text">{{description}}</p>
+        </div>
+      </div>
 </div>

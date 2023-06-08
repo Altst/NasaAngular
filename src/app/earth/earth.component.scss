@@ -1,0 +1,72 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.properties{
+    display: flex;
+    gap: 5rem;
+}
+.btnUp{
+    width: 65.5%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(86, 86, 86, 0.121);
+    }
+}
+.photoWrapper{
+    width: 70%;
+    height: 65vh;
+    display: flex;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    background-color: #f6edfc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+}
+.msg{
+    color: black;
+}
+.btnLeft{
+    width: 5vh;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(86, 86, 86, 0.121);
+    }
+}
+.btnRight{
+    width: 5vh;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(86, 86, 86, 0.121);
+    }
+}
+.btnBot{
+    width: 65.5%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(86, 86, 86, 0.121);
+    }
+}
